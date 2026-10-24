@@ -7,7 +7,7 @@ const productSchema = new mongoose.Schema({
     userId:String,
     company:String,
     color:String,
-    rating:number
+    rating:String
 });
 
 module.exports= mongoose.model("products", productSchema);
